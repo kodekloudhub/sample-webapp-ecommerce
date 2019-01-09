@@ -23,7 +23,7 @@ images = {
 
 @app.route("/")
 def main():
-    return render_template('hello.html', APP=APP, COLOR=color_codes[APP], IMAGE=images[APP])
+    return render_template('hello.html', COLOR=color_codes[APP], IMAGE=images[APP])
 
 
 if __name__ == "__main__":
