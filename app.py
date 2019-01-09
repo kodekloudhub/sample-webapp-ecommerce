@@ -11,12 +11,14 @@ APP = os.environ.get('APP') or "localhost"
 
 color_codes = {
     "apparels": "#2980b9",
-    "video": "#30336b"
+    "video": "#30336b",
+    "404": "#3e169d"
 }
 
 images = {
     "apparels": "https://res.cloudinary.com/cloudusthad/image/upload/v1547052428/apparels.jpg",
-    "video": "https://res.cloudinary.com/cloudusthad/image/upload/v1547052431/video.jpg"
+    "video": "https://res.cloudinary.com/cloudusthad/image/upload/v1547052431/video.jpg",
+    "404": "https://res.cloudinary.com/cloudusthad/image/upload/v1547053817/error_404.png"
 }
 
 @app.route("/")
