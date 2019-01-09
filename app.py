@@ -5,7 +5,7 @@ import random
 import os
 import argparse
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__)
 
 APP = os.environ.get('APP') or "localhost"
 
