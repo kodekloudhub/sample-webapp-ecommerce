@@ -21,7 +21,14 @@ images = {
     "404": "https://res.cloudinary.com/cloudusthad/image/upload/v1547053817/error_404.png"
 }
 
-@app.route("/")
+
+@app.errorhandler(404)
+def page_not_found(e):
+    # note that we set the 404 status explicitly
+    return render_template('hello.html', COLOR=color_codes["404"], IMAGE=images["404"])
+
+
+@app.route('/')
 def main():
     return render_template('hello.html', COLOR=color_codes[APP], IMAGE=images[APP])
 
