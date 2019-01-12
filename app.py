@@ -13,14 +13,16 @@ color_codes = {
     "apparels": "#2980b9",
     "video": "#30336b",
     "404": "#3e169d",
-    "food": "#30336b"
+    "food": "#30336b",
+    "pay": "#2980b9"
 }
 
 images = {
     "apparels": "https://res.cloudinary.com/cloudusthad/image/upload/v1547052428/apparels.jpg",
     "video": "https://res.cloudinary.com/cloudusthad/image/upload/v1547052431/video.jpg",
     "404": "https://res.cloudinary.com/cloudusthad/image/upload/v1547053817/error_404.png",
-    "food": "https://res.cloudinary.com/cloudusthad/image/upload/v1547258061/macaroon-PVQTF45-low.jpg"
+    "food": "https://res.cloudinary.com/cloudusthad/image/upload/v1547258061/macaroon-PVQTF45-low.jpg",
+    "pay": "https://res.cloudinary.com/cloudusthad/image/upload/v1547306802/a-customer-making-wireless-or-contactless-payment-PSWG6FE-low.jpg"
 }
 
 
