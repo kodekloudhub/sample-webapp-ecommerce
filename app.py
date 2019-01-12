@@ -18,7 +18,8 @@ color_codes = {
 images = {
     "apparels": "https://res.cloudinary.com/cloudusthad/image/upload/v1547052428/apparels.jpg",
     "video": "https://res.cloudinary.com/cloudusthad/image/upload/v1547052431/video.jpg",
-    "404": "https://res.cloudinary.com/cloudusthad/image/upload/v1547053817/error_404.png"
+    "404": "https://res.cloudinary.com/cloudusthad/image/upload/v1547053817/error_404.png",
+    "food": "https://res.cloudinary.com/cloudusthad/image/upload/v1547258061/macaroon-PVQTF45-low.jpg"
 }
 
 
