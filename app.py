@@ -12,7 +12,8 @@ APP = os.environ.get('APP') or "localhost"
 color_codes = {
     "apparels": "#2980b9",
     "video": "#30336b",
-    "404": "#3e169d"
+    "404": "#3e169d",
+    "food": "#30336b"
 }
 
 images = {
