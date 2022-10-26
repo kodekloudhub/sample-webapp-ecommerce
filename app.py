@@ -7,7 +7,7 @@ import argparse
 
 app = Flask(__name__)
 
-APP = os.environ.get('APP') or "localhost"
+APP = os.environ.get('APP') or "food"
 
 color_codes = {
     "apparels": "#2980b9",
@@ -34,7 +34,7 @@ def page_not_found(e):
 
 @app.route('/')
 def main():
-    return render_template('hello.html', COLOR=color_codes[APP], IMAGE=images[APP])
+    return render_template('hello.html', COLOR=color_codes[APP], IMAGE=images["food"])
 
 
 if __name__ == "__main__":
