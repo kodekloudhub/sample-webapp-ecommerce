@@ -7,7 +7,7 @@ import argparse
 
 app = Flask(__name__)
 
-APP = os.environ.get('APP') or "localhost"
+APP = os.environ.get('APP') or "video"
 
 color_codes = {
     "apparels": "#2980b9",
